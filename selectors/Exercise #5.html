@@ -1,0 +1,17 @@
+Compute the specificity scores
+<br>
+* { 1 } <br>
+li { 1} <br>
+li:first-line { 1 } <br>
+ul li { 2 } <br>
+ul ol+li { 3 } <br>
+h1 + *[rel=up] { 2  } <br>
+ul ol li.red { 103 } <br>
+li.red.level { 201 } <br>
+style=" 1000 " <br>
+p { 1 } <br>
+div p { 2 } <br>
+.sith {100} <br>
+div p.sith { 102 } <br>
+#sith (10 ) <br>
+body #darkside .sith p { 112 } <br>
