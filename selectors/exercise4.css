@@ -1,1 +1,23 @@
 /* this is for you to complete */
+ul > li > ul   { color: blue;
+} 
+ul > li > ul > li > ul  {
+    list-style: none;
+}
+
+li:first-of-type {
+    font-weight: bold;
+}
+
+a {
+    color: green;
+}
+
+li a {
+    color: red;
+}
+
+#link3 a {
+    color: purple;
+    background-color: yellow;
+}
