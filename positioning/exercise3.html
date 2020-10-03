@@ -6,8 +6,31 @@
         body {
             background-color: #cccccc;
         }
+        article {
+            width: 200px;
+            height: 100px;
+            float: left;
+            margin: 10px;
+            overflow: hidden;
+            background-color: blanchedalmond;
+        }
 
-        /* add CSS here*/
+        .promo::-webkit-scrollbar { 
+                display: none; 
+                }
+
+        .promo {
+            font-weight: bold;
+            overflow: scroll;
+            width: 100%;
+            height: 50px;
+            background-color: #cccccc;
+            border-top: 2px solid red;
+            border-bottom: 2px solid red;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            clear: both;
+        }
     </style>
 </head>
 <body>
